@@ -84,7 +84,7 @@ const Signup = () => {
               if (validateInputs()) {
                 try {
                   const response = await axios.post(
-                    "http://localhost:3000/api/v1/user/signup",
+                    `${API_URL}/api/v1/user/signup`,
                     {
                       Name,
                       email,

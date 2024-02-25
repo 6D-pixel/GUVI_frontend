@@ -16,14 +16,11 @@ const Profile = () => {
 
   useEffect(() => {
     const fetchUser = async () => {
-      const response = await axios.get(
-        "http://localhost:3000/api/v1/user/userData",
-        {
-          headers: {
-            Authorization: "Bearer " + localStorage.getItem("token"),
-          },
-        }
-      );
+      const response = await axios.get(`${API_URL}/api/v1/user/userData`, {
+        headers: {
+          Authorization: "Bearer " + localStorage.getItem("token"),
+        },
+      });
       console.log(response.data);
       setProfileData({
         age: response.data.age,
