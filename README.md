@@ -1,8 +1,28 @@
-# React + Vite
+Task: Tech Support- Intern (Full Stack Development)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Problem Statement:
+- Create a signup page where a user can register with following details(Name,
+email, password, confirm password).
+- A login page to log in with the details(email & password).
+- After successful login it should redirect to a profile page which should
+contain additional details such as age,gender,dob,mobile, etc that can be
+updated by the user.
+- Once the user logs out it should redirect to the login page.
+Things to remember:
+- All your fields should be validated at the client side.
+- Show relevant success/alert/error messages to the user wherever it’s needed.
+- All the user details need to be stored in the database(MongoDB/MySQL).
+- Use any of the online databases.
+- All your HTML, CSS, JavaScript code should be aligned and kept as
+separate files.
+- All files need to be submitted with GitHub.
+- Your project should be hosted with AWS/Heroku/Netlify.
 
-Currently, two official plugins are available:
+Note: The above task has to be implemented with
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: Reactjs
+Backend : Nodejs
+
+## hosted the Frontend on Netlify
+## plz refer the GUVI_task repo https://github.com/6D-pixel/GUVI_task
+- this the original repo moved the forntend code here
