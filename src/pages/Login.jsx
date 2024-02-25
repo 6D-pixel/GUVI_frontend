@@ -6,6 +6,7 @@ import Button from "../component/Button";
 import BottomWarning from "../component/BottomWarning";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { API_URL } from "../../config";
 
 const Login = () => {
   const [email, setEmail] = useState("");

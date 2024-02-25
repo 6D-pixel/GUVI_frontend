@@ -6,6 +6,7 @@ import Heading from "../component/Heading";
 import InputBox from "../component/InputBox";
 import SubHeading from "../component/SubHeading";
 import { useNavigate } from "react-router-dom";
+import { API_URL } from "../../config";
 
 const Signup = () => {
   const [Name, setName] = useState("");

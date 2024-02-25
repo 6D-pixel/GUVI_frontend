@@ -4,6 +4,7 @@ import Button from "../component/Button";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
 import Logout from "../component/Logout";
+import { API_URL } from "../../config";
 const Profile = () => {
   const [profileData, setProfileData] = useState({
     age: 0,
@@ -107,7 +108,7 @@ const Profile = () => {
           onClick={async () => {
             try {
               const response = await axios.put(
-                "http://localhost:3000/api/v1/user/update",
+                `${API_URL}/api/v1/user/update`,
                 { profileData },
                 {
                   headers: {
