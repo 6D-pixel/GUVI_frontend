@@ -25,4 +25,4 @@ Backend : Nodejs
 
 ## hosted the Frontend on Netlify
 ## plz refer the GUVI_task repo https://github.com/6D-pixel/GUVI_task
-- this the original repo moved the forntend code here
+- this is the original repo moved the forntend code here
